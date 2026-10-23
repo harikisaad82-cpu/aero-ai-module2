@@ -46,6 +46,10 @@
 
 
 ## Behaviorist AI:
+### AI Behavior:
+- Chapter 1, page 3 of the first edition of Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
+  
+  used for: introduces the core definition of reinforcement learning as learning how to map situations to actions to maximize a numerical reward signal.
 
 
 
