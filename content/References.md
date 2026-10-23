@@ -1,4 +1,4 @@
-##This file is to keep track of every reference that is used
+## This file is to keep track of every reference that is used
 
 ## Hardware References:
 
@@ -32,7 +32,7 @@
 
 
 
-##Behaviorist AI:
+## Behaviorist AI:
 
 
 
