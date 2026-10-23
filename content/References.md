@@ -34,6 +34,7 @@
 
 ### Computer Networking
 - Kurose, J. F., & Ross, K. W. (2017). Computer Networking: A Top-Down Approach (7th ed.). Pearson. Chapter 1 (Introduction), Page 5.
+
   used for: introduces the core components of a computer network by breaking down the network structure into three main parts: hosts (end systems), access networks / communication links, and the network core.
 
 
