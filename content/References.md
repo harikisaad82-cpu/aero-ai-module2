@@ -3,8 +3,8 @@
 ## Hardware References:
 
 ### Course Material
-- BIT Introduction to Artificial Intelligence and Computer Science,
-  Chapter 2: Hardware and Networks.
+- Introduction to Artificial Intelligence and Computer Science,
+  Hardware and Networks.
   Used for: hardware components, data representation,
   Von Neumann model, and program execution.
 
