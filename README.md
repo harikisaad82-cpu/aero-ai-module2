@@ -20,11 +20,13 @@ Beginner-friendly learning materials (study guide, slides, videos) on how comput
 Beginners in an introductory CS and AI course. No programming or networking knowledge is assumed.
 
 ## Folder structure
-- `content/`: Markdown learning content (outline, hardware, networks, behaviorist AI)
-- `activities/`: questions and answers
-- `assets/`: images and diagrams
-- `plan/`: project plan and task list
-- `references.md`: sources
+- `content/`: Markdown learning materials and references.
+  - `hardware.md`: Hardware topic.
+  - `networks.md`: Networks topic.
+  - `content/behaviorist-ai.md`: Behaviorist AI topic.
+  - `References.md`: Reference list.
+
+
 
 ## Current progress
 - Module outline: in progress
