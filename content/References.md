@@ -1,7 +1,6 @@
-#This file is to keep track of every reference that is used
+##This file is to keep track of every reference that is used
 
-Hardware:
-## Hardware References
+## Hardware References:
 
 ### Course Material
 - BIT Introduction to Artificial Intelligence and Computer Science,
@@ -33,12 +32,7 @@ Hardware:
 
 
 
-
-
-
-
-
-Behaviorist AI:
+##Behaviorist AI:
 
 
 
