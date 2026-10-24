@@ -25,3 +25,7 @@ If Computer A wants to send a file to Computer B on the same network:
 
 ### Reference
 * Kurose, J. F., & Ross, K. W. (2017). *Computer Networking: A Top-Down Approach* (7th ed.). Pearson. Chapter 1 (Introduction), Page 5.
+
+
+## Comments:
+Explains the topic quite well and has examples that visualize the topic — the diagram needs to be revised since it is a bit unclear
