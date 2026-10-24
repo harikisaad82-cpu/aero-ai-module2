@@ -76,3 +76,7 @@ Author or instructor: Richard s.Sutton and Andrew G.Barto
 Textbook or lecture title: Reinforcement learning ;An introduction
 Chapter or page:CHapiter 1 , introduction , page 3 [first edition]
 Relevant concept: Behaviorism, reinforcement, or learning through feedback
+
+
+## Comments
+Explains behaviorist AI well, has examples to make learning easier, adds the advantages and limitations to explain why behaviorist AI is used; however, it needs to change the reference to the actual format to quote a textbook.
