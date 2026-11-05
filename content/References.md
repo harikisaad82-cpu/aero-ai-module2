@@ -51,6 +51,16 @@
   
   used for: introduces the core definition of reinforcement learning as learning how to map situations to actions to maximize a numerical reward signal.
 
+- Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction (2nd ed.). MIT Press.
+
+Book website: http://incompleteideas.net/book/the-book-2nd.html
+
+- Skinner, B. F. (1938). The Behavior of Organisms: An Experimental Analysis. Appleton-Century.
+
+Used for: This book presents foundational research on behavior, reinforcement and learning.
+- Sutton, R. S. (1988). Learning to predict by the methods of temporal differences. Machine Learning, 3, 9–44.
+
+https://doi.org/10.1007/BF00115009
 
 
 
