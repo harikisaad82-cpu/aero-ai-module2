@@ -107,7 +107,9 @@ Increasing RAM can help with running demanding applications, but it does not dir
 ### Learning Check
 
 If you can explain why RAM and SSD storage serve different purposes, you understand one of the most important distinctions in computer hardware.
+
 ```
+
 ### Example: Opening a Photo
 
 When a user opens a photo, the file is retrieved from **storage** and loaded into **memory (RAM)**. The **CPU** processes the instructions needed to open the file, while memory temporarily holds the data being used. The processed image is then displayed through an **output device**, such as the monitor.
