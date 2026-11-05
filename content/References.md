@@ -37,6 +37,16 @@
 
   used for: introduces the core components of a computer network by breaking down the network structure into three main parts: hosts (end systems), access networks / communication links, and the network core.
 
+- Cisco Networking Academy. (n.d.). Networking Basics. https://www.netacad.com/courses/networking-basics
+
+- Internet Engineering Task Force (IETF). (1981). RFC 791: Internet Protocol. https://www.rfc-editor.org/rfc/rfc791
+
+- Internet Engineering Task Force (IETF). (1981). RFC 793: Transmission Control Protocol. https://www.rfc-editor.org/rfc/rfc793
+
+- Internet Engineering Task Force (IETF). (1980). RFC 768: User Datagram Protocol. https://www.rfc-editor.org/rfc/rfc768
+
+- Internet Engineering Task Force (IETF). (1987). RFC 1034: Domain Names—Concepts and Facilities. https://www.rfc-editor.org/rfc/rfc1034
+
 
 
 
