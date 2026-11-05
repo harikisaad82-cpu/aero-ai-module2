@@ -62,20 +62,51 @@ Examples:
 - Speakers
 - Printer
 
-## How the Components Work Together
+## Active Learning: What Happens When the Power Goes Off?
 
-A simple view is:
+### Scenario
 
-```text
-Input
-  |
-  v
-Memory <--> CPU
-  |
-  v
-Output
+Alex is writing a school assignment on a laptop.
 
-Storage <--> Memory
+The laptop has:
+- 8 GB of RAM
+- 256 GB of SSD storage
+
+Alex writes two paragraphs but forgets to save the document.
+
+Suddenly, the laptop loses power.
+
+### Your Task
+
+Before reading the answer, predict what happens.
+
+1. Will the two unsaved paragraphs necessarily be available when the laptop restarts? Explain why.
+
+2. Which hardware component is designed to retain saved files when the computer is turned off?
+
+3. Alex wants to keep several large video files for future use. Should Alex focus on increasing RAM or storage capacity? Explain your choice.
+
+### Answers and Explanations
+
+**1. Not necessarily.**
+
+The unsaved paragraphs may be lost because RAM is volatile, meaning it normally loses its contents when power is removed.
+
+Some applications have automatic recovery features, but recovery is not guaranteed.
+
+**2. SSD storage.**
+
+An SSD is non-volatile storage. It is designed to retain saved data even without power.
+
+**3. Increase storage capacity.**
+
+Video files need long-term storage space. Increasing SSD capacity allows more files to be stored.
+
+Increasing RAM can help with running demanding applications, but it does not directly provide more permanent file storage.
+
+### Learning Check
+
+If you can explain why RAM and SSD storage serve different purposes, you understand one of the most important distinctions in computer hardware.
 ```
 ### Example: Opening a Photo
 
