@@ -25,13 +25,14 @@ Beginners in an introductory CS and AI course. No programming or networking know
 - `content/hardware.md`: Hardware topic
 - `content/networks.md`: Networks topic
 - `content/behaviorist-ai.md`: Behaviorist AI topic
+- `content/connections.md`: how the three topics connect
 - `content/References.md`: sources
 - `activities/test-bank.md`: test bank (questions and answer key)
 
 ## Current progress
-- Hardware, Networks and Behaviorist AI: V2 drafts with vocabulary, worked examples, activities and answers
-- Test bank: drafted
-- Peer review: pending
+- All core topics (Hardware, Networks, Behaviorist AI) and the section linking them: V2 content with vocabulary, worked examples, activities and answers
+- Test bank: complete
+- Peer review: completed by teammates for every section
 
 ## Remaining work
-Peer review of every topic and the test bank, verification of references, a section linking the three topics, and the study
+Final reference checks, and building the study guide, slides and videos from this content.
