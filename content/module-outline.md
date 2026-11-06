@@ -1,39 +1,38 @@
-# Module Outline: Hardware, Networks & Behaviorist AI
+# Aero AI: Hardware, Networks & Behaviorist AI
 
-**Audience:** beginners in an introductory Computer Science and AI course.
-**Prerequisite knowledge:** everyday use of computers and the internet. No programming, networking or AI background is assumed.
+**Team:** Aero AI
+**Module:** Module 2, Hardware, Networks & Behaviorist AI
+**Course:** Introduction to Artificial Intelligence and Computer Science
+**Version:** Markdown Content V2.0 (Stage 2)
 
-## Learning Outcomes
+## Members
+| Name | GitHub username | Topic |
+|---|---|---|
+| el hariki saad | harikisaad82-cpu | Coordinator, GitHub, README and outline |
+| Aya Baroudi | ayabaroudi77-sys | Networks |
+| Sebastian Harry Arsena | tianindo | Hardware |
+| el mehdi lamghari | gww9-gfw9dev | Behaviorist AI |
+| jovan hermawan | jovanher | Test bank, review |
 
-After using this material, a beginner should be able to:
+## Purpose
+Beginner-friendly learning materials (study guide, test bank, slides, videos) on how computers work, how devices communicate, and how AI can learn from rewards and penalties.
 
-1. Identify the main hardware components and explain what each does.
-2. Explain the difference between memory (RAM) and storage.
-3. Explain how devices exchange data over a network using IP addresses, packets, protocols, switches and routers.
-4. Trace how a website loads and find the mistake in a simple network problem.
-5. Explain how an agent learns from rewards and penalties, and calculate a cumulative reward.
-6. Explain exploration versus exploitation and why the current state matters.
+## Intended learners
+Beginners in an introductory CS and AI course. No programming or networking knowledge is assumed.
 
-## Learning Sequence and Development Status
+## Where to find things
+- `content/outline.md`: module outline, learning outcomes and the status of each section
+- `content/hardware.md`: Hardware topic
+- `content/networks.md`: Networks topic
+- `content/behaviorist-ai.md`: Behaviorist AI topic
+- `content/connections.md`: how the three topics connect
+- `content/References.md`: sources
+- `activities/test-bank.md`: test bank (questions and answer key)
 
-| # | Section | Main ideas | Examples / activities | File | Status |
-|---|---|---|---|---|---|
-| 1 | Hardware | CPU, RAM, storage, input, output | Opening a photo; memory vs storage activity | hardware.md | Drafted, review pending |
-| 2 | Networks | Network types, devices, IP, protocols, DNS | How a website loads; find-the-mistake printing activity; bandwidth vs latency | networks.md | Drafted, review pending |
-| 3 | Behaviorist AI | Agent, state, reward, policy, exploration vs exploitation, cumulative reward | Robot maze with rewards; predict, find the mistake, cumulative reward, explore or exploit | behaviorist-ai.md | Drafted, review pending |
-| 4 | How the topics connect | A robot that senses (hardware), communicates (networks) and learns (behaviorist AI) | Short recap activity | not yet written | Outline only |
-| 5 | Test bank | True/False, multiple choice and open-ended questions with answers | Built from sections 1-3 | activities/test-bank.md | Drafted, review pending |
+## Current progress
+- All core topics (Hardware, Networks, Behaviorist AI) and the section linking them: V2 content with vocabulary, worked examples, activities and answers
+- Test bank: complete
+- Peer review: completed by teammates for every section
 
-## Gaps and Uncertainties
-
-- Section 4 (how the topics connect) is not written yet.
-- Terminology and the Sutton & Barto edition need to be consistent across all files.
-- Page numbers and web sources still need to be checked.
-- Diagrams are text-based. Images are not added yet.
-- No peer review has been recorded yet.
-
-## How the Content Will Be Reused
-
-- **Study Guide:** each topic becomes a mission with its activities, answers and glossary.
-- **PPT Slides:** each diagram (component diagram, home network diagram, learning cycle) becomes a labelled visual slide.
-- **Video Tutorials:** each worked example (opening a photo, loading a website, the robot in the maze) becomes a short narrated walkthrough.
+## Remaining work
+Final reference checks, and building the study guide, slides and videos from this content.
