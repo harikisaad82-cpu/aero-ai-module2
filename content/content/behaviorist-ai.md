@@ -3,7 +3,7 @@
 **Team:** Aero AI
 **Module:** Hardware, Networks & Behaviorist AI
 **Topic leader:** El Mehdi Lamghari
-**Status:** First version, peer review pending
+**Status:** Peer-reviewed (V2.0)
 
 ## Learning Outcomes
 
