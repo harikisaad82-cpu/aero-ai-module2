@@ -1,7 +1,6 @@
 # Computer Hardware
 
-**Topic leader:** Sebastian Harry Arsena
-**Status:** Peer-reviewed (V2.0)
+**Status:** First draft — peer review pending
 
 ## Learning Outcomes
 
@@ -10,13 +9,11 @@ By the end of this section, learners should be able to:
 - Explain what computer hardware is.
 - Identify the roles of the CPU, memory, storage, input, and output.
 - Describe how these components work together.
-- Explain the difference between memory (RAM) and storage.
-
-**Prerequisite:** none. Learners only need to have used a computer or phone.
+- Explain the difference between memory and storage.
 
 ## What Is Computer Hardware?
 
-Computer hardware means the physical parts of a computer system, the parts you can touch.
+Computer hardware means the physical parts of a computer system.
 
 Examples include:
 
@@ -37,89 +34,67 @@ The **Central Processing Unit (CPU)** processes instructions and performs calcul
 
 ### Memory
 
-**Memory**, such as RAM, temporarily stores data and instructions that are currently being used. RAM is *volatile*: its contents are normally lost when power is removed.
+**Memory**, such as RAM, temporarily stores data and instructions that are currently being used.
 
 ### Storage
 
-**Storage** keeps files and programs for longer periods of time, including when the computer is switched off.
+**Storage** keeps files and programs for longer periods of time.
 
-Examples include SSDs and hard disk drives (HDDs).
+Examples include SSDs and hard disk drives.
 
 ### Input
 
 **Input devices** send information into the computer.
 
-Examples: keyboard, mouse, microphone.
+Examples:
+
+- Keyboard
+- Mouse
+- Microphone
 
 ### Output
 
 **Output devices** show or communicate results from the computer.
 
-Examples: monitor, speakers, printer.
+Examples:
 
-### GPU
+- Monitor
+- Speakers
+- Printer
 
-The **Graphics Processing Unit (GPU)** helps render graphics and video.
 
-## How the Components Work Together
+### How the Components Work Together
 
-Computer components work together to receive input, process information, store data, and produce output.
+Computer components work together to receive input,
+process information, store data, and produce output.
 
-The diagram below shows a simplified view of their relationship.
+The diagram below shows a simplified view of
+how these components interact.
 
 ```text
-           +------------------+
-           |  Input Devices   |
-           | Keyboard, Mouse  |
-           +------------------+
-                    |
-                    v
-           +------------------+
-           |       CPU        |
-           | Processes Data   |
-           +------------------+
-              ^           |
-              |           |
-              v           v
-     +----------------+  +------------------+
-     |  RAM (Memory)  |  | Output Devices   |
-     | Temporary Data |  | Monitor, Speaker |
-     +----------------+  +------------------+
-              ^
-              |
-              v
-     +------------------+
-     |     Storage      |
-     |    SSD / HDD     |
-     | Long-Term Files  |
-     +------------------+
-```
+Input Devices (Keyboard / Mouse)
+               |
+               v
+              CPU <------> RAM
+               |
+               v
+              GPU
+               |
+               v
+       Output (Monitor)
 
-### Understanding the Diagram
+Storage (SSD / HDD) <----> RAM
 
-- **Input devices:** allow users to send information or commands to the computer.
-- **CPU:** executes instructions and processes information.
-- **RAM:** temporarily holds the instructions and data currently being used.
-- **Storage:** keeps programs and files even when the computer is turned off.
-- **Output devices:** present results to users through images, sounds, or printed information.
+<text color="secondary" size="xs">Note: The inner ```text and closing ``` are part of the Markdown code you should paste.</text>
 
-**Note:** this is a simplified conceptual diagram. In real computers, data moves through multiple components and connections.
+## Edit 2 — Fix the Minecraft worked example
 
-### Memory (RAM) vs Storage
+Find:
 
-| | Memory (RAM) | Storage (SSD/HDD) |
-|---|---|---|
-| Purpose | Working space for what is in use now | Keeping files for the long term |
-| When power is off | Contents are normally lost | Contents are kept |
-| Speed | Faster | Slower |
-
-### Example: Opening a Photo
-
-When a user opens a photo, the file is retrieved from **storage** and loaded into **memory (RAM)**. The **CPU** processes the instructions needed to open the file, while memory temporarily holds the data being used. The processed image is then displayed through an **output device**, such as the monitor.
-
+```markdown
 ## Worked Example: What Happens When You Open a Video Game?
 
-Imagine that you want to play a video game such as Minecraft on your computer.
+Imagine that you want to play Minecraft on your computer.
 
 ### Step 1: Storage
 
@@ -149,12 +124,12 @@ The keyboard sends this input to the computer.
 
 The computer updates the game and displays the result on your monitor.
 
-The GPU helps render the game's graphics.
+The GPU (Graphics Processing Unit) helps render the game's graphics.
 
 ### Summary
 
 | Component | Role in the example |
-|---|---|
+| --- | --- |
 | SSD | Stores the game files |
 | RAM | Holds active game data |
 | CPU | Executes game instructions |
@@ -162,7 +137,9 @@ The GPU helps render the game's graphics.
 | GPU | Renders game graphics |
 | Monitor | Displays the game |
 
-**Key takeaway:** playing a game requires several hardware components working together, rather than one component performing every task.
+**Key takeaway:** Playing a video game requires
+several hardware components working together.
+
 
 ## Active Learning: What Happens When the Power Goes Off?
 
@@ -171,7 +148,6 @@ The GPU helps render the game's graphics.
 Alex is writing a school assignment on a laptop.
 
 The laptop has:
-
 - 8 GB of RAM
 - 256 GB of SSD storage
 
@@ -184,31 +160,56 @@ Suddenly, the laptop loses power.
 Before reading the answer, predict what happens.
 
 1. Will the two unsaved paragraphs necessarily be available when the laptop restarts? Explain why.
+
 2. Which hardware component is designed to retain saved files when the computer is turned off?
+
 3. Alex wants to keep several large video files for future use. Should Alex focus on increasing RAM or storage capacity? Explain your choice.
 
 ### Answers and Explanations
 
+<details>
+<summary>Click to reveal the answers</summary>
+
 **1. Not necessarily.**
 
-The unsaved paragraphs may be lost because RAM is volatile, meaning it normally loses its contents when power is removed.
-
-Some applications have automatic recovery features, but recovery is not guaranteed.
+The unsaved paragraphs may be lost because RAM is
+volatile. Some applications offer automatic recovery,
+but recovery is not guaranteed.
 
 **2. SSD storage.**
 
-An SSD is non-volatile storage. It is designed to retain saved data even without power.
+An SSD is non-volatile storage, meaning it retains
+saved data even when power is removed.
 
 **3. Increase storage capacity.**
 
-Video files need long-term storage space. Increasing SSD capacity allows more files to be stored.
+Large video files require long-term storage space.
+More RAM helps with active applications but does not
+directly increase permanent file storage.
 
-Increasing RAM can help with running demanding applications, but it does not directly provide more permanent file storage.
-
+</details>
 ### Learning Check
 
 If you can explain why RAM and SSD storage serve different purposes, you understand one of the most important distinctions in computer hardware.
 
-## References
+```
 
-See [References](References.md), section "Hardware References".
+### Understanding the Diagram
+
+- **Input devices:** Allow users to send information or commands to the computer.
+- **CPU:** Executes instructions and processes information.
+- **RAM:** Temporarily holds the instructions and data currently being used.
+- **Storage:** Keeps programs and files even when the computer is turned off.
+- **Output devices:** Present results to users through images, sounds, or printed information.
+
+**Note:** This is a simplified conceptual diagram. In real computers, data moves through multiple components and connections.
+
+```
+### Example: Opening a Photo
+
+When a user opens a photo, the file is retrieved from **storage** and loaded into **memory (RAM)**. The **CPU** processes the instructions needed to open the file, while memory temporarily holds the data being used. The processed image is then displayed through an **output device**, such as the monitor.
+
+
+## Comments:
+
+Successfully explained what computer hardware is, its parts, and their roles; provided sufficient examples with a diagram and explained how the components work.
