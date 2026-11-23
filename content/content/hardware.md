@@ -1,215 +1,373 @@
-# Computer Hardware
-
-**Status:** First draft — peer review pending
+# Mission 1 — Computer Hardware
 
 ## Learning Outcomes
 
-By the end of this section, learners should be able to:
+By the end of this mission, learners should be able to:
 
 - Explain what computer hardware is.
-- Identify the roles of the CPU, memory, storage, input, and output.
-- Describe how these components work together.
-- Explain the difference between memory and storage.
+- Identify the functions of the CPU, RAM, storage, GPU, input devices and output devices.
+- Describe how hardware components work together.
+- Distinguish temporary memory from long-term storage.
+- Observe CPU, RAM and disk activity using Task Manager or Activity Monitor.
 
-## What Is Computer Hardware?
+## 1.1 What Is Computer Hardware?
 
-Computer hardware means the physical parts of a computer system.
+Computer hardware refers to the physical parts of a computer system.
 
-Examples include:
+Examples include the CPU, RAM, SSD, keyboard, mouse, monitor and GPU.
 
-- CPU
-- RAM
-- Storage devices
-- Keyboard
-- Mouse
-- Monitor
+Each component has a different function, but they work together to process information and complete tasks.
 
-These components have different jobs, but they work together to process information and complete tasks.
+## 1.2 Main Hardware Components
 
-## Key Terms
+| Component | Function | Example |
+|---|---|---|
+| CPU | Executes instructions and performs calculations. | Processing game rules |
+| RAM | Temporarily holds active data and instructions. It normally loses its contents without power. | Holding active game data |
+| Storage | Keeps files and programs for long periods, including when power is off. | SSD or HDD |
+| Input devices | Send commands or information into the computer. | Keyboard, mouse, microphone |
+| Output devices | Present the computer's results. | Monitor, speakers, printer |
+| GPU | Processes graphics and helps render images and video. | Rendering a 3D game scene |
 
-### CPU
+### RAM vs Storage
 
-The **Central Processing Unit (CPU)** processes instructions and performs calculations.
+RAM provides temporary working space for active programs.
 
-### Memory
+Storage, such as an SSD or HDD, keeps saved files even after the computer is switched off.
 
-**Memory**, such as RAM, temporarily stores data and instructions that are currently being used.
+A computer with a large SSD does not necessarily have a large amount of RAM.
 
-### Storage
+## 1.3 How Hardware Components Work Together
 
-**Storage** keeps files and programs for longer periods of time.
+When you open a photo:
 
-Examples include SSDs and hard disk drives.
+1. The computer retrieves the file from storage.
+2. The required data is loaded into RAM.
+3. The CPU executes instructions to open and process the photo.
+4. The GPU may help render the image.
+5. The monitor displays the result.
+6. The mouse can provide input when you interact with the photo.
 
-### Input
-
-**Input devices** send information into the computer.
-
-Examples:
-
-- Keyboard
-- Mouse
-- Microphone
-
-### Output
-
-**Output devices** show or communicate results from the computer.
-
-Examples:
-
-- Monitor
-- Speakers
-- Printer
-
-
-### How the Components Work Together
-
-Computer components work together to receive input,
-process information, store data, and produce output.
-
-The diagram below shows a simplified view of
-how these components interact.
+### Simplified Hardware Diagram
 
 ```text
-Input Devices (Keyboard / Mouse)
-               |
-               v
-              CPU <------> RAM
-               |
-               v
-              GPU
-               |
-               v
-       Output (Monitor)
+Input Devices
+Keyboard / Mouse
+       |
+       v
+      CPU <----> RAM
+       |
+       v
+      GPU
+       |
+       v
+Output Devices
+    Monitor
 
-Storage (SSD / HDD) <----> RAM
+Storage (SSD / HDD)
+       |
+       v
+  Data loaded
+    into RAM
+```
 
-<text color="secondary" size="xs">Note: The inner ```text and closing ``` are part of the Markdown code you should paste.</text>
+This is a simplified diagram. Actual computers use multiple components and connections to transfer information.
 
-## Edit 2 — Fix the Minecraft worked example
+## 1.4 Worked Example: Launching a Video Game
 
-Find:
+Imagine opening a video game on your computer.
 
-```markdown
-## Worked Example: What Happens When You Open a Video Game?
+1. **SSD:** Stores the installed game files.
+2. **RAM:** Holds the game instructions and data currently being used.
+3. **CPU:** Executes game rules, movement and other instructions.
+4. **Keyboard:** Sends commands when the player presses a key.
+5. **GPU:** Helps render the game's graphics.
+6. **Monitor:** Displays the result.
 
-Imagine that you want to play Minecraft on your computer.
-
-### Step 1: Storage
-
-The game is installed on a storage device, such as an SSD.
-
-The SSD keeps the game files even when the computer is switched off.
-
-### Step 2: RAM
-
-When you launch the game, the operating system loads the necessary instructions and data into RAM.
-
-RAM provides fast access to the information the computer is actively using.
-
-### Step 3: CPU
-
-The CPU executes the game's instructions.
-
-For example, it processes game rules, player movement, and interactions with objects.
-
-### Step 4: Input
-
-You press the W key to move your character forward.
-
-The keyboard sends this input to the computer.
-
-### Step 5: Output
-
-The computer updates the game and displays the result on your monitor.
-
-The GPU (Graphics Processing Unit) helps render the game's graphics.
-
-### Summary
-
-| Component | Role in the example |
-| --- | --- |
+| Component | Role |
+|---|---|
 | SSD | Stores the game files |
 | RAM | Holds active game data |
-| CPU | Executes game instructions |
+| CPU | Executes instructions |
 | Keyboard | Sends player commands |
-| GPU | Renders game graphics |
+| GPU | Helps render graphics |
 | Monitor | Displays the game |
 
-**Key takeaway:** Playing a video game requires
-several hardware components working together.
+**Key takeaway:** Playing a game requires several hardware components to work together.
 
+---
 
-## Active Learning: What Happens When the Power Goes Off?
+## Activity 1 — Power Cut! Predict What Survives
+
+### Goal
+
+Understand the difference between temporary memory and long-term storage.
 
 ### Scenario
 
-Alex is writing a school assignment on a laptop.
+Alex is writing an assignment on a laptop with 8 GB of RAM and a 256 GB SSD.
 
-The laptop has:
-- 8 GB of RAM
-- 256 GB of SSD storage
+Alex writes two paragraphs without saving them. Suddenly, the laptop loses power.
 
-Alex writes two paragraphs but forgets to save the document.
+### Instructions
 
-Suddenly, the laptop loses power.
+Answer these questions before checking the explanations.
 
-### Your Task
-
-Before reading the answer, predict what happens.
-
-1. Will the two unsaved paragraphs necessarily be available when the laptop restarts? Explain why.
-
-2. Which hardware component is designed to retain saved files when the computer is turned off?
-
-3. Alex wants to keep several large video files for future use. Should Alex focus on increasing RAM or storage capacity? Explain your choice.
+1. Will the unsaved paragraphs necessarily be available after restarting?
+2. Which component retains saved files without power?
+3. If Alex wants to keep many large videos, should Alex upgrade RAM or storage?
 
 ### Answers and Explanations
 
-<details>
-<summary>Click to reveal the answers</summary>
-
 **1. Not necessarily.**
 
-The unsaved paragraphs may be lost because RAM is
-volatile. Some applications offer automatic recovery,
-but recovery is not guaranteed.
+Unsaved information may be lost because RAM is volatile. Some applications provide automatic recovery, but this is not guaranteed.
 
 **2. SSD storage.**
 
-An SSD is non-volatile storage, meaning it retains
-saved data even when power is removed.
+An SSD retains saved files when power is removed.
 
-**3. Increase storage capacity.**
+**3. Storage capacity.**
 
-Large video files require long-term storage space.
-More RAM helps with active applications but does not
-directly increase permanent file storage.
+Large video files require permanent storage space. Additional RAM helps with active tasks but does not increase long-term file capacity.
 
-</details>
-### Learning Check
+### Reflection
 
-If you can explain why RAM and SSD storage serve different purposes, you understand one of the most important distinctions in computer hardware.
+Why do computers need both RAM and storage?
 
+**Suggested answer:** RAM provides fast temporary working space for running applications, while storage preserves saved files and programs.
+
+---
+
+## Activity 2 — Label the Computer
+
+### Goal
+
+Identify hardware components and classify them by function.
+
+### Instructions
+
+Using the hardware definitions in Section 1.2, classify these eight items:
+
+1. Microphone
+2. SSD
+3. RAM
+4. Monitor
+5. Keyboard
+6. Processor
+7. Printer
+8. Speakers
+
+Choose from:
+
+- CPU
+- Memory
+- Storage
+- Input
+- Output
+
+Then draw arrows showing how a computer records and saves a voice note.
+
+### Answer Key
+
+| Item | Classification |
+|---|---|
+| Microphone | Input |
+| SSD | Storage |
+| RAM | Memory |
+| Monitor | Output |
+| Keyboard | Input |
+| Processor | CPU |
+| Printer | Output |
+| Speakers | Output |
+
+### Voice Note Example
+
+```text
+Microphone (Input)
+        |
+        v
+CPU + RAM (Processing
+and temporary data)
+        |
+        v
+SSD (Saved recording)
+        |
+        v
+Speakers / Monitor
+      (Output)
 ```
 
-### Understanding the Diagram
+The microphone captures sound. The CPU processes the information while RAM temporarily holds active data. The recording can then be saved to the SSD.
 
-- **Input devices:** Allow users to send information or commands to the computer.
-- **CPU:** Executes instructions and processes information.
-- **RAM:** Temporarily holds the instructions and data currently being used.
-- **Storage:** Keeps programs and files even when the computer is turned off.
-- **Output devices:** Present results to users through images, sounds, or printed information.
+### Reflection
 
-**Note:** This is a simplified conceptual diagram. In real computers, data moves through multiple components and connections.
+Can one device have more than one role?
 
+**Answer:** Yes. A touchscreen acts as an output device when displaying information and as an input device when detecting touch.
+
+---
+
+## Activity 3 — Live Lab: Watch Your Computer Work
+
+### Goal
+
+Observe how CPU, RAM and storage activity changes when an application opens and closes.
+
+### Preparation
+
+Use your own laptop or desktop computer.
+
+**Windows:**
+
+1. Press `Ctrl + Shift + Esc`.
+2. Open Task Manager.
+3. Select the Performance tab.
+
+**macOS:**
+
+1. Open Applications.
+2. Select Utilities.
+3. Open Activity Monitor.
+4. Inspect the CPU, Memory and Disk tabs.
+
+No additional software is required.
+
+### Instructions
+
+**Step 1 — Before**
+
+With only the monitoring tool open, record:
+
+- CPU usage (%)
+- RAM currently in use
+- Disk activity
+
+**Step 2 — Prediction**
+
+Predict which measurement will change the most when you open a large application or play a video.
+
+**Step 3 — During**
+
+Open the application or video.
+
+Wait approximately 20 seconds.
+
+Record CPU usage, RAM usage and disk activity again.
+
+Take a screenshot of the readings.
+
+**Step 4 — After**
+
+Close the application and record the same three measurements.
+
+### Observation Table
+
+Copy this table into your worksheet and enter your actual measurements.
+
+| Moment | CPU % | RAM used | Disk activity |
+|---|---|---|---|
+| Before | Record measurement | Record measurement | Record measurement |
+| During | Record measurement | Record measurement | Record measurement |
+| After | Record measurement | Record measurement | Record measurement |
+
+### Questions
+
+1. Which measurement changed the most?
+2. Why does RAM usage usually increase when an application opens?
+3. Why do saved files remain on the SSD after the application closes?
+4. Why might the readings differ between computers?
+
+### Expected Results and Explanations
+
+**CPU:** Usage may increase when the computer processes instructions.
+
+**RAM:** Usage normally increases when an application loads instructions and active data into memory.
+
+**Disk:** Activity may increase briefly when the application loads files from storage.
+
+**After closing:** RAM usage often decreases, but it may not return to the exact starting value because the operating system can retain cached data.
+
+Measurements vary because of background applications, operating-system activity and the computer's specifications.
+
+### Reflection
+
+CPU, RAM and storage perform different tasks, but their activity is connected. Opening an application can affect all three components.
+
+---
+
+## 1.5 Optional Investigation: Little Man Computer
+
+Little Man Computer (LMC) is a simplified educational model that demonstrates instruction execution and memory.
+
+**Simulator:** https://peterhigginson.co.uk/lmc/
+
+### Instructions
+
+1. Open the simulator.
+2. Locate the program area, memory and input/output sections.
+3. Enter the following instructions:
+
+```text
+INP
+OUT
+HLT
 ```
-### Example: Opening a Photo
 
-When a user opens a photo, the file is retrieved from **storage** and loaded into **memory (RAM)**. The **CPU** processes the instructions needed to open the file, while memory temporarily holds the data being used. The processed image is then displayed through an **output device**, such as the monitor.
+4. Run the program using the input `7`.
+5. Repeat using the input `12`.
+6. Record both outputs.
 
+### Expected Results
 
-## Comments:
+| Input | Expected output |
+|---|---|
+| 7 | 7 |
+| 12 | 12 |
 
-Successfully explained what computer hardware is, its parts, and their roles; provided sufficient examples with a diagram and explained how the components work.
+`INP` reads a number, `OUT` displays it, and `HLT` stops execution.
+
+### Fallback
+
+If the simulator cannot be accessed, trace the three instructions on paper.
+
+The output should match the input.
+
+### Reflection
+
+LMC helps learners understand basic instruction processing, but it does not represent every feature of a modern CPU.
+
+---
+
+## 1.6 Check Yourself
+
+**Question 1:** A laptop has a 1 TB SSD. Does that tell you how much RAM it has?
+
+**Answer:** No. SSD capacity and RAM capacity are separate.
+
+**Question 2:** Is a keyboard an input or output device?
+
+**Answer:** Input. It sends commands into the computer.
+
+**Question 3:** Why might unsaved work disappear after a power cut?
+
+**Answer:** Unsaved information may be held in volatile RAM, which normally loses its contents without power.
+
+**Question 4:** What does the GPU do?
+
+**Answer:** It processes graphics and helps render images and video.
+
+## Key Takeaway
+
+Hardware components cooperate to perform computing tasks.
+
+Input devices send commands, the CPU processes instructions, RAM holds active data, storage retains files, the GPU helps render graphics, and output devices present results.
+
+## Learning Resources
+
+- Aero AI Academy Study Guide V1.0, Mission 1, pages 5–8.
+- [Little Man Computer Simulator](https://peterhigginson.co.uk/lmc/)
+
+## Related Worksheet
+
+Mission 1 activities are supported by `Hardware_Worksheet.pdf`. Use the worksheet to record the component labels, voice-note diagram and Task Manager observations.
