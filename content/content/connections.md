@@ -1,46 +1,37 @@
-# How Hardware, Networks and Behaviorist AI Connect
+# References
 
-**Status:** Peer-reviewed (V2.0)
+This file lists every source used in the project, with what each one was used for. The external links are for further reading. No activity in this repository depends on them.
 
-## Learning Outcomes
+## Hardware References
 
-After this section, learners should be able to:
+- Course material: *Introduction to Artificial Intelligence and Computer Science*, Hardware and Networks (course slides and lecture).
+  Used for: hardware components and how they work together.
+- Wikipedia. "Computer hardware." https://en.wikipedia.org/wiki/Computer_hardware
+  Used for: basic computer hardware components.
+- Developers Heaven. "Introduction to Computer Architecture: CPU, Memory, I/O Interplay." https://developers-heaven.net/blog/introduction-to-computer-architecture-cpu-memory-i-o-interplay/
+  Used for: how input and output gather data, memory holds it and the CPU processes it.
 
-- Explain how hardware, networks and a learning agent work together in one everyday situation.
-- Use terms from all three topics correctly in one explanation.
+## Networks References
 
-## One Connected Scenario
+- Kurose, J. F., & Ross, K. W. (2017). *Computer Networking: A Top-Down Approach* (7th ed.). Pearson. Chapter 1 (Introduction).
+  Used for: the core components of a computer network: hosts (end systems), access networks and communication links, and the network core.
+- Cisco Networking Academy. (n.d.). *Networking Basics.* https://www.netacad.com/courses/networking-basics
+  Used for: further reading on basic networking concepts. A free Cisco Networking Academy account may be needed.
+- Internet Engineering Task Force (IETF). (1981). *RFC 791: Internet Protocol.* https://www.rfc-editor.org/rfc/rfc791
+  Used for: the definition of IP addressing.
+- Internet Engineering Task Force (IETF). (1981). *RFC 793: Transmission Control Protocol.* https://www.rfc-editor.org/rfc/rfc793
+  Used for: the definition of TCP as reliable, ordered delivery.
+- Internet Engineering Task Force (IETF). (1980). *RFC 768: User Datagram Protocol.* https://www.rfc-editor.org/rfc/rfc768
+  Used for: the definition of UDP.
+- Internet Engineering Task Force (IETF). (1987). *RFC 1034: Domain Names, Concepts and Facilities.* https://www.rfc-editor.org/rfc/rfc1034
+  Used for: the role of DNS.
 
-You open a learning website on a laptop and start an online robot-maze activity.
+The RFCs are the official technical standards, so they are for further reading, not beginner material.
 
-| Part of the story | Topic | What happens |
-|---|---|---|
-| The laptop runs the browser | Hardware | Input devices send your commands. The CPU runs the browser's instructions after they are loaded from storage into RAM. The GPU helps render graphics and the monitor displays the result. |
-| The page arrives from the website | Networks | DNS helps find the website's IP address. Your laptop sends packets over Wi-Fi to the router and across the Internet. The server's response comes back and the browser displays it. |
-| The robot learns a route | Behaviorist AI | The agent observes its state in the environment, chooses an action and receives a reward or penalty. After each attempt it updates its policy. |
+## Behaviorist AI References
 
-Hardware makes the laptop work. Networks carry requests and responses between the laptop and the website. Inside the maze activity, an AI agent may learn a route from rewards and penalties. The three topics describe different layers of the same experience.
-
-## Activity: Explain the Whole Story
-
-**Task:** explain what happens when you open a browser, visit a website and start a robot-maze simulation. Include at least **two hardware components**, **two networking concepts** and **four reinforcement-learning terms**. You may answer in a paragraph or a labelled diagram.
-
-Try it yourself first, then compare with the sample answer below.
-
-## Sample Answer
-
-When I open the browser, my keyboard and mouse (input devices) send commands to the CPU, which runs the browser's instructions after they are loaded from the SSD into RAM. When I type a website name, DNS translates it into an IP address, and my laptop sends packets over Wi-Fi to the router and across the Internet. The server's response comes back, and the monitor (output) displays the page, with the GPU helping to render graphics. When I start the robot-maze simulation, the agent observes its state in the environment, chooses an action and receives a reward or penalty. After each attempt it updates its policy, and over many runs it balances exploration and exploitation to increase its cumulative reward.
-
-## Common Misunderstandings
-
-- **Hardware and networks are different things:** the laptop (hardware) can run without a network, but it cannot load a website without one.
-- **Wi-Fi is not the Internet:** Wi-Fi connects your laptop to a local network; the Internet connects networks around the world.
-- **Reinforcement learning is a computational method, not the same as behaviorist psychology:** it borrows the idea of learning from consequences.
-
-## Key Takeaway
-
-Hardware provides the machine, networks connect machines, and a learning agent uses feedback to improve its decisions. Real systems combine all three.
-
-## References
-
-See [References](References.md).
+- Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press. http://incompleteideas.net/book/the-book-2nd.html
+  Used for: the core definition of reinforcement learning as learning how to map situations to actions to maximize a numerical reward signal.
+- Skinner, B. F. (1938). *The Behavior of Organisms: An Experimental Analysis.* Appleton-Century.
+  Used for: historical background on behavior, reinforcement and learning from consequences.
+- Further reading (not needed for beginners): Sutton, R. S. (1988). Learning to predict by the methods of temporal differences. *Machine Learning, 3*, 9-44. https://doi.org/10.1007/BF00115009
